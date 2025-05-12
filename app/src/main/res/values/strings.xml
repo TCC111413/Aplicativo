@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Aplicativo</string>
+    <string name="sou_doutor">Sou doutor</string>
+    <string name="sou_paciente">Sou paciente</string>
+    <string name="bem_vindo_a">Bem-vindo(a)</string>
+    <string name="data_de_nascimento">Data de nascimento</string>
+    <string name="nome">Nome</string>
+    <string name="precisaremos_de_alguns_dados">Precisaremos de alguns dados!</string>
+    <string name="nome_">Nome:</string>
+    <string name="data_de_nascimento_">Data de nascimento:</string>
+    <string name="pr_ximo_passo">Próximo passo</string>
+    <string name="seguinte">Seguinte</string>
 </resources>
