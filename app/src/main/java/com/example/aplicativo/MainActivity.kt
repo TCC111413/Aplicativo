@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
             val botaotrocar = findViewById<Button>(R.id.idbuttonPaciente)
             botaotrocar.setOnClickListener{
-                setContentView(R.layout.activity_paciente)
+                setContentView(R.layout.activity_tela_paciente)
             }
 
 

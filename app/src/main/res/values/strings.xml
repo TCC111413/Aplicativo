@@ -9,5 +9,11 @@
     <string name="nome_">Nome:</string>
     <string name="data_de_nascimento_">Data de nascimento:</string>
     <string name="pr_ximo_passo">Próximo passo</string>
+    <string name="name" />
+    <string name="nome_1">Nome</string>
+    <string name="oiiii">OIIII</string>
     <string name="seguinte">Seguinte</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="login">Login</string>
+    <string name="fa_a_login_ou_cadastre_se">Faça Login ou Cadastre-se</string>
 </resources>
