@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         val botao2 = findViewById<Button>(R.id.idbuttonMedico)
         botao2.setOnClickListener {
-            val intent = Intent(this, TelaMedicoActivity::class.java)
+            val intent = Intent(this, Telaescolhamedico::class.java)
             startActivity(intent)
         }
     }

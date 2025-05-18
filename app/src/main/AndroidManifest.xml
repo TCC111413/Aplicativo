@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
 
     <application
 
@@ -17,6 +20,10 @@
         <activity android:name=".TelaMedicoActivity" />
         <activity android:name=".TelaLoginPacienteActivity" />
         <activity android:name=".TelaCadastroPacienteActivity" />
+        <activity android:name=".TelaMedicoCadastro2" />
+        <activity android:name=".Telafinalmedico" />
+        <activity android:name=".Telaescolhamedico" />
+        <activity android:name=".TelaLoginMedico" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -25,6 +32,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
