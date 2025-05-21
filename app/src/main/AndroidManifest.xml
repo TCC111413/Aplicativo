@@ -16,14 +16,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Aplicativo"
         tools:targetApi="31">
-        <activity android:name=".TelaPacienteActivity" />
-        <activity android:name=".TelaMedicoActivity" />
+        <activity android:name=".TelaCadastroMedicoActivity" />
+        <activity android:name=".TelaEscolhaMedicoActivity" />
+        <activity android:name=".TelaEscolhaPacienteActivity" />
         <activity android:name=".TelaLoginPacienteActivity" />
-        <activity android:name=".TelaCadastroPacienteActivity" />
-        <activity android:name=".TelaMedicoCadastro2" />
-        <activity android:name=".Telafinalmedico" />
-        <activity android:name=".Telaescolhamedico" />
-        <activity android:name=".TelaLoginMedico" />
+        <activity android:name="TelaLoginMedicoActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

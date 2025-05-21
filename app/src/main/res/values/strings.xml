@@ -16,4 +16,6 @@
     <string name="cadastre_se">Cadastre-se</string>
     <string name="login">Login</string>
     <string name="fa_a_login_ou_cadastre_se">Faça Login ou Cadastre-se</string>
+    <string name="aba_pacientes">Aba Pacientes</string>
+    <string name="meus_dados">Meus Dados</string>
 </resources>

@@ -5,19 +5,19 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+class TelaAbaMedicoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_aba_medico)
 
-        val botao1 = findViewById<Button>(R.id.idbuttonPaciente)
-        botao1.setOnClickListener {
-            val intent = Intent(this,TelaEscolhaPacienteActivity::class.java)
+        val botaoMedicos = findViewById<Button>(R.id.buttonAbaMedicos)
+        botaoMedicos.setOnClickListener {
+            val intent = Intent(this, TelaEscolhaPacienteActivity::class.java)
             startActivity(intent)
         }
 
-        val botao2 = findViewById<Button>(R.id.idbuttonMedico)
-        botao2.setOnClickListener {
+        val botaoPacientes = findViewById<Button>(R.id.buttonAbaPacientes)
+        botaoPacientes.setOnClickListener {
             val intent = Intent(this, TelaEscolhaMedicoActivity::class.java)
             startActivity(intent)
         }
