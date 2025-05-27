@@ -63,6 +63,7 @@ class TelaCadastroMedicoActivity : AppCompatActivity() {
 
         }
     }
+
     fun isValidEmail(email: String): Boolean {
         return android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()
     }
@@ -88,7 +89,14 @@ class TelaCadastroMedicoActivity : AppCompatActivity() {
                 Toast.makeText(this, "Erro ao cadastrar: ${it.message}", Toast.LENGTH_LONG).show()
             }
     }
-    private fun register(nome: String, crm: String, telefone: String, email: String, senha: String) {
+
+    private fun register(
+        nome: String,
+        crm: String,
+        telefone: String,
+        email: String,
+        senha: String
+    ) {
         val auth = FirebaseAuth.getInstance()
         auth.createUserWithEmailAndPassword(email, senha)
             .addOnCompleteListener(this) { task ->
