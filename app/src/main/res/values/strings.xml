@@ -17,4 +17,13 @@
     <string name="fa_a_login_ou_cadastre_se">Faça Login ou Cadastre-se</string>
     <string name="aba_pacientes">Aba Pacientes</string>
     <string name="meus_dados">Meus Dados</string>
+    <string name="_27_03_2008">27/03/2008</string>
+    <string name="example_email_com">example@email.com</string>
+    <string name="_12_3456_7890">(12) 3456-7890</string>
+    <string name="seguinte4">Seguinte</string>
+    <string name="numero_de_telefone">Numero de Telefone:</string>
+    <string name="email">Email:</string>
+    <string name="nome12">Nome:</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="fulano_de_tal_da_silva">Fulano de Tal da Silva</string>
 </resources>
