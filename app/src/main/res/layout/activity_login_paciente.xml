@@ -69,9 +69,9 @@
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.371"
-        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.622" />
 
@@ -80,7 +80,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/kiwi"
-        android:text="Login"
+        android:text="@string/login1"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,9 +93,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/kiwi"
-        android:text="Senha:"
+        android:text="@string/senha"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
-        tools:layout_editor_absoluteX="36dp" />
+        tools:layout_editor_absoluteX="36dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

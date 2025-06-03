@@ -26,4 +26,6 @@
     <string name="nome12">Nome:</string>
     <string name="cadastro">Cadastro</string>
     <string name="fulano_de_tal_da_silva">Fulano de Tal da Silva</string>
+    <string name="senha">Senha:</string>
+    <string name="login1">Login</string>
 </resources>
